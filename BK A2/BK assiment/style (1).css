@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#header1 {
+    justify-content: space-between;
+    background-color: #f5ebdc;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+    z-index: 1500; /* Ensure it appears above other content */
+   }
+
+
+
+
+
+@font-face {
+    font-family: "Flame";
+    src: url(Flame-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Flame Sans";
+    src: url(FlameSans-Regular.woff2);
+}
+
+#logo {
+    width: 60px;
+    height: 75px;
+    margin: 0 auto;
+    align-items: center;
+}
+#lines {position: relative;
+       top: 25px;
+        margin-right:10px;}
+#headertext {
+    float: left;
+    margin-right: 4mm;
+    margin-top: 7mm;
+    color: #502314;
+    font-size: 20px;
+    text-decoration: none;
+} 
+
+#headertext:hover {
+    color: #d62300;
+}
+
+.headertext2 {
+    float: right;
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+#headertext2 {
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+* {
+    font-family: Flame;
+}  
+
+#header2 {
+    background-color: #502314;
+    padding: 30px; 
+    text-align: left; /* Align text to the right */
+    margin-top: 100px;
+    padding-left: 10px;
+    
+}
+#yourbk {position: absolute;
+        bottom:560px}
+
+#welcome-text {
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#learn-more-btn {
+    background-color: #502314;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    float: right; /* Remove floating */
+}
+
+.header-button {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+}
+
+#sign-up-btn {
+    background-color: red;
+    color: white;
+}
+
+#balance-btn {
+    background-color: #502314; /* Brown color */
+    color: white;
+}
+
+#top-right-buttons {
+    top: 10px;
+    right: 10px;
+}
+
+#header-text {
+    position: fixed; /* Fixed position */
+    top: 10px; /* 10px from the top */
+    right: 10px; /* 10px from the right */
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#headertext2-container {
+    display: flex;
+    align-items: center;
+}
